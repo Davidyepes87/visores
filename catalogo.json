@@ -1,0 +1,822 @@
+{
+ "actualizado": "2026-11-06",
+ "base": "https://davidyepes87.github.io/visores/",
+ "autor": "Ing. David Yepes Builes — terrenoIA",
+ "visores": [
+  {
+   "id": "la-iguana",
+   "titulo": "Gemelo de alerta La Iguaná",
+   "grupo": "Gestión del riesgo",
+   "lugar": "El Pesebre y Blanquizal, Medellín",
+   "resumen": "Creciente del 09-oct-2026 sobre el terreno 2024: agua por niveles, casas y personas expuestas, sistema de alerta y la propuesta de muros de encauzamiento con su efecto.",
+   "revision": "r05",
+   "fecha": "2026-11-06",
+   "miniatura": "miniaturas/la-iguana.jpg",
+   "vistas": [
+    {
+     "id": "celular",
+     "nombre": "Mapa 3D (liviano)",
+     "url": "la-iguana/celular.html",
+     "mb": 9.9,
+     "celular": true
+    },
+    {
+     "id": "mapa",
+     "nombre": "Mapa 3D completo",
+     "url": "la-iguana/mapa.html",
+     "mb": 18.4,
+     "celular": true
+    },
+    {
+     "id": "3d",
+     "nombre": "Gemelo 3D (Cesium)",
+     "url": "la-iguana/3d.html",
+     "mb": 22.7,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "marinilla",
+   "titulo": "Marinilla en 3D",
+   "grupo": "Territorio",
+   "lugar": "Casco urbano de Marinilla",
+   "resumen": "Construcciones sobre el relieve, espacio público del PMEEP, andenes, caminata a parques y simulación de tránsito de la Calle 28.",
+   "revision": "r03",
+   "fecha": "2026-10-30",
+   "miniatura": "miniaturas/marinilla.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Mapa 3D",
+     "url": "marinilla/index.html",
+     "mb": 6.1,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "pv-la-madera",
+   "titulo": "Paso vial La Madera",
+   "grupo": "Vías y movilidad",
+   "lugar": "Medellín",
+   "resumen": "Vía y puente modelados en IFC 4.3 sobre el terreno, con el estado actual y el diseño.",
+   "revision": "r09",
+   "fecha": "2026-10-19",
+   "miniatura": "miniaturas/pv-la-madera.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Vía y puente",
+     "url": "pv-la-madera/index.html",
+     "mb": 24.2,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "cola-del-zorro",
+   "titulo": "Simulador de tránsito Cola del Zorro",
+   "grupo": "Vías y movilidad",
+   "lugar": "Medellín",
+   "resumen": "Animación del tránsito sobre la vía en 3D: vehículos, intersecciones y señalización.",
+   "revision": "v06",
+   "fecha": "2026-10-28",
+   "miniatura": "miniaturas/cola-del-zorro.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Simulador",
+     "url": "cola-del-zorro/index.html",
+     "mb": 5.6,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "lidar-robledo",
+   "titulo": "Vía desde nube LIDAR",
+   "grupo": "Vías y movilidad",
+   "lugar": "Robledo, Medellín",
+   "resumen": "Modelo de la vía reconstruido desde la nube de puntos LIDAR: calzada, andenes y elementos.",
+   "revision": "v03",
+   "fecha": "2026-09-30",
+   "miniatura": "miniaturas/lidar-robledo.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Vía 3D",
+     "url": "lidar-robledo/index.html",
+     "mb": 2.4,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "jorge-eliecer-gaitan",
+   "titulo": "Parque Jorge Eliécer Gaitán",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 3, Medellín",
+   "resumen": "Mejoramiento total del parque: diseño y estado actual en IFC 4.3.",
+   "revision": "r02",
+   "fecha": "2026-09-24",
+   "miniatura": "miniaturas/jorge-eliecer-gaitan.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "jorge-eliecer-gaitan/diseno.html",
+     "mb": 16.0,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "jorge-eliecer-gaitan/estado-actual.html",
+     "mb": 5.8,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "sucre",
+   "titulo": "Parque Recreativo Activo Sucre",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 8, Medellín",
+   "resumen": "Diseño y estado actual del parque en IFC 4.3.",
+   "revision": "r04",
+   "fecha": "2026-09-23",
+   "miniatura": "miniaturas/sucre.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "sucre/diseno.html",
+     "mb": 11.1,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "sucre/estado-actual.html",
+     "mb": 5.1,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "el-totazo",
+   "titulo": "Zona verde El Totazo",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 5, Medellín",
+   "resumen": "Diseño y estado actual en IFC 4.3.",
+   "revision": "r02",
+   "fecha": "2026-09-29",
+   "miniatura": "miniaturas/el-totazo.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "el-totazo/diseno.html",
+     "mb": 21.6,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "el-totazo/estado-actual.html",
+     "mb": 5.4,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "barrio-antioquia-1",
+   "titulo": "Parque Barrio Antioquia 1",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 15, Medellín",
+   "resumen": "Parque diseñado casi desde cero sobre el estado actual.",
+   "revision": "r01",
+   "fecha": "2026-09-30",
+   "miniatura": "miniaturas/barrio-antioquia-1.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "barrio-antioquia-1/diseno.html",
+     "mb": 17.5,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "barrio-antioquia-1/estado-actual.html",
+     "mb": 6.5,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "san-cristobal",
+   "titulo": "Parque San Cristóbal",
+   "grupo": "Espacio público",
+   "lugar": "Corregimiento San Cristóbal, Medellín",
+   "resumen": "Diseño completo y estado actual. El diseño es pesado: mejor en computador.",
+   "revision": "r07",
+   "fecha": "2026-10-05",
+   "miniatura": "miniaturas/san-cristobal.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "san-cristobal/diseno.html",
+     "mb": 65.0,
+     "celular": false
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "san-cristobal/estado-actual.html",
+     "mb": 6.4,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "las-iguanas",
+   "titulo": "Parque Las Iguanas",
+   "grupo": "Espacio público",
+   "lugar": "Medellín",
+   "resumen": "Gemelo del parque sobre el terreno. Pesado: mejor en computador.",
+   "revision": "r04",
+   "fecha": "2026-09-22",
+   "miniatura": "miniaturas/las-iguanas.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Parque",
+     "url": "las-iguanas/index.html",
+     "mb": 46.5,
+     "celular": false
+    }
+   ]
+  },
+  {
+   "id": "loreto",
+   "titulo": "Parque Loreto Sector Nacional",
+   "grupo": "Espacio público",
+   "lugar": "Medellín",
+   "resumen": "Gemelo del parque en IFC 4.3.",
+   "revision": "r05",
+   "fecha": "2026-09-22",
+   "miniatura": "miniaturas/loreto.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Parque",
+     "url": "loreto/index.html",
+     "mb": 4.9,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "la-libertad",
+   "titulo": "Parque La Libertad",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 8, Medellín",
+   "resumen": "Modelo de coordinación del parque.",
+   "revision": "r03",
+   "fecha": "2026-09-22",
+   "miniatura": "miniaturas/la-libertad.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Parque",
+     "url": "la-libertad/index.html",
+     "mb": 2.1,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "enrique-olaya",
+   "titulo": "Parque Recreativo Versalles (Enrique Olaya Herrera)",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 3, Medellín",
+   "resumen": "Gemelo del parque en IFC 4.3.",
+   "revision": "r03",
+   "fecha": "2026-09-23",
+   "miniatura": "miniaturas/enrique-olaya.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Parque",
+     "url": "enrique-olaya/index.html",
+     "mb": 11.3,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "el-salvador",
+   "titulo": "Parque El Salvador",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 9, Medellín",
+   "resumen": "Mejoramiento total del parque.",
+   "revision": "r02",
+   "fecha": "2026-09-23",
+   "miniatura": "miniaturas/el-salvador.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Parque",
+     "url": "el-salvador/index.html",
+     "mb": 12.0,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "colinas-de-enciso",
+   "titulo": "Parque Colinas de Enciso",
+   "grupo": "Espacio público",
+   "lugar": "Medellín",
+   "resumen": "Gemelo del parque en IFC 4.3.",
+   "revision": "r03",
+   "fecha": "2026-09-23",
+   "miniatura": "miniaturas/colinas-de-enciso.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Parque",
+     "url": "colinas-de-enciso/index.html",
+     "mb": 8.4,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "las-estancias",
+   "titulo": "Zona verde Urbanización Las Estancias",
+   "grupo": "Espacio público",
+   "lugar": "Villatina, Comuna 8, Medellín",
+   "resumen": "Propuesta nueva y lo existente.",
+   "revision": "r03",
+   "fecha": "2026-09-23",
+   "miniatura": "miniaturas/las-estancias.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Propuesta",
+     "url": "las-estancias/diseno.html",
+     "mb": 5.9,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Existente",
+     "url": "las-estancias/estado-actual.html",
+     "mb": 2.7,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "orografico-el-jardin",
+   "titulo": "Parque Orográfico El Jardín",
+   "grupo": "Espacio público",
+   "lugar": "Medellín",
+   "resumen": "Gemelo del parque en IFC 4.3.",
+   "revision": "r03",
+   "fecha": "2026-09-23",
+   "miniatura": "miniaturas/orografico-el-jardin.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Parque",
+     "url": "orografico-el-jardin/index.html",
+     "mb": 4.5,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "terraza-de-la-villa",
+   "titulo": "Parque Terraza de la Villa",
+   "grupo": "Espacio público",
+   "lugar": "Los Mangos, Comuna 8, Medellín",
+   "resumen": "Gemelo del parque en IFC 4.3.",
+   "revision": "r01",
+   "fecha": "2026-09-23",
+   "miniatura": "miniaturas/terraza-de-la-villa.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Parque",
+     "url": "terraza-de-la-villa/index.html",
+     "mb": 3.2,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "la-ladera",
+   "titulo": "Parque La Ladera",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 8, Medellín",
+   "resumen": "Modelo de coordinación del parque.",
+   "revision": "r04",
+   "fecha": "2026-09-20",
+   "miniatura": "miniaturas/la-ladera.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Parque",
+     "url": "la-ladera/index.html",
+     "mb": 7.7,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "esfuerzos-de-la-paz",
+   "titulo": "Parque Esfuerzos de la Paz",
+   "grupo": "Espacio público",
+   "lugar": "Medellín",
+   "resumen": "Gemelo del parque en IFC 4.3.",
+   "revision": "r03",
+   "fecha": "2026-09-18",
+   "miniatura": "miniaturas/esfuerzos-de-la-paz.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Parque",
+     "url": "esfuerzos-de-la-paz/index.html",
+     "mb": 12.3,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "libertad-del-grafiti",
+   "titulo": "Parque La Libertad del Grafiti",
+   "grupo": "Espacio público",
+   "lugar": "Medellín",
+   "resumen": "Parque con juegos y detalles. Pesado: mejor en computador.",
+   "revision": "r05",
+   "fecha": "2026-09-16",
+   "miniatura": "miniaturas/libertad-del-grafiti.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Parque",
+     "url": "libertad-del-grafiti/index.html",
+     "mb": 26.6,
+     "celular": false
+    }
+   ]
+  },
+  {
+   "id": "la-avanzada-2",
+   "titulo": "Parque La Avanzada 2",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 1, Medellín",
+   "resumen": "Diseño y estado actual en IFC 4.3.",
+   "revision": "r04",
+   "fecha": "2026-09-24",
+   "miniatura": "miniaturas/la-avanzada-2.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "la-avanzada-2/diseno.html",
+     "mb": 8.7,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "la-avanzada-2/estado-actual.html",
+     "mb": 5.5,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "santa-ines",
+   "titulo": "Parque Santa Inés",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 3, Medellín",
+   "resumen": "Diseño y estado actual en IFC 4.3.",
+   "revision": "r02",
+   "fecha": "2026-09-24",
+   "miniatura": "miniaturas/santa-ines.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "santa-ines/diseno.html",
+     "mb": 17.4,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "santa-ines/estado-actual.html",
+     "mb": 6.8,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "club-barrial-brasilia",
+   "titulo": "Club Barrial Brasilia",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 4, Medellín",
+   "resumen": "Diseño y estado actual.",
+   "revision": "r02",
+   "fecha": "2026-09-24",
+   "miniatura": "miniaturas/club-barrial-brasilia.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "club-barrial-brasilia/diseno.html",
+     "mb": 13.1,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "club-barrial-brasilia/estado-actual.html",
+     "mb": 5.1,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "palermo",
+   "titulo": "Parque Palermo",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 4, Medellín",
+   "resumen": "Diseño y estado actual en IFC 4.3.",
+   "revision": "r02",
+   "fecha": "2026-09-24",
+   "miniatura": "miniaturas/palermo.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "palermo/diseno.html",
+     "mb": 13.9,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "palermo/estado-actual.html",
+     "mb": 5.3,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "cataluna",
+   "titulo": "Parque Cataluña",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 9, Medellín",
+   "resumen": "Diseño y estado actual en IFC 4.3.",
+   "revision": "r02",
+   "fecha": "2026-09-28",
+   "miniatura": "miniaturas/cataluna.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "cataluna/diseno.html",
+     "mb": 12.2,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "cataluna/estado-actual.html",
+     "mb": 4.4,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "barrio-de-jesus",
+   "titulo": "Parque Barrio de Jesús",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 9, Medellín",
+   "resumen": "Diseño y estado actual en IFC 4.3.",
+   "revision": "r02",
+   "fecha": "2026-09-29",
+   "miniatura": "miniaturas/barrio-de-jesus.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "barrio-de-jesus/diseno.html",
+     "mb": 21.0,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "barrio-de-jesus/estado-actual.html",
+     "mb": 5.1,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "altos-del-pinal",
+   "titulo": "Zona verde Altos del Pinal",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 8, Medellín",
+   "resumen": "Diseño y estado actual en IFC 4.3.",
+   "revision": "r02",
+   "fecha": "2026-09-29",
+   "miniatura": "miniaturas/altos-del-pinal.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "altos-del-pinal/diseno.html",
+     "mb": 20.8,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "altos-del-pinal/estado-actual.html",
+     "mb": 4.0,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "el-salvador-2",
+   "titulo": "Zona verde El Salvador 2",
+   "grupo": "Espacio público",
+   "lugar": "Comuna 9, Medellín",
+   "resumen": "Diseño y estado actual en IFC 4.3.",
+   "revision": "r01",
+   "fecha": "2026-09-29",
+   "miniatura": "miniaturas/el-salvador-2.jpg",
+   "vistas": [
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "url": "el-salvador-2/diseno.html",
+     "mb": 10.0,
+     "celular": true
+    },
+    {
+     "id": "estado-actual",
+     "nombre": "Estado actual",
+     "url": "el-salvador-2/estado-actual.html",
+     "mb": 4.2,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "ep-zea",
+   "titulo": "Parque Francisco Antonio Zea",
+   "grupo": "Ejercicios de diseño",
+   "lugar": "Castilla, Medellín",
+   "resumen": "Primer diseño propio del módulo de espacio público, con la Carrera 65.",
+   "revision": "v03",
+   "fecha": "2026-09-07",
+   "miniatura": "miniaturas/ep-zea.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Diseño",
+     "url": "ep-zea/index.html",
+     "mb": 10.7,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "ep-aguacatala",
+   "titulo": "Corredor peatonal EAFIT – Aguacatala",
+   "grupo": "Ejercicios de diseño",
+   "lugar": "El Poblado, Medellín",
+   "resumen": "Andén y rampa accesible NTC 4143 hasta la estación Aguacatala.",
+   "revision": "v02",
+   "fecha": "2026-09-08",
+   "miniatura": "miniaturas/ep-aguacatala.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Corredor",
+     "url": "ep-aguacatala/index.html",
+     "mb": 2.3,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "ep-ladera",
+   "titulo": "Ejercicio La Ladera",
+   "grupo": "Ejercicios de diseño",
+   "lugar": "Medellín",
+   "resumen": "Ejercicio de diseño de espacio público con amoblamiento del catálogo.",
+   "revision": "v01",
+   "fecha": "2026-09-05",
+   "miniatura": "miniaturas/ep-ladera.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Diseño",
+     "url": "ep-ladera/index.html",
+     "mb": 9.1,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "ep-esperanza",
+   "titulo": "Ejercicio La Esperanza",
+   "grupo": "Ejercicios de diseño",
+   "lugar": "Medellín",
+   "resumen": "Ejercicio corto de espacio público.",
+   "revision": "v01",
+   "fecha": "2026-09-07",
+   "miniatura": "miniaturas/ep-esperanza.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Diseño",
+     "url": "ep-esperanza/index.html",
+     "mb": 1.2,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "parqueadero-motos-barbosa",
+   "titulo": "Parqueadero de motos en estructura metálica",
+   "grupo": "Edificación",
+   "lugar": "Barbosa, Antioquia",
+   "resumen": "Parqueadero de 150 motos en tres niveles, con rampa, señalización y energía solar.",
+   "revision": "t4",
+   "fecha": "2026-10-26",
+   "miniatura": "miniaturas/parqueadero-motos-barbosa.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Modelo 3D",
+     "url": "parqueadero-motos-barbosa/index.html",
+     "mb": 16.8,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "valvula-avk-756",
+   "titulo": "Válvula de mariposa AVK 756",
+   "grupo": "Catálogo BIM",
+   "lugar": "—",
+   "resumen": "Familia paramétrica DN200 generada en IFC4.",
+   "revision": "v01",
+   "fecha": "2026-08-14",
+   "miniatura": "miniaturas/valvula-avk-756.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Familia",
+     "url": "valvula-avk-756/index.html",
+     "mb": 1.9,
+     "celular": true
+    }
+   ]
+  },
+  {
+   "id": "silleta-tecnopipe",
+   "titulo": "Silleta Tecnopipe 110×32",
+   "grupo": "Catálogo BIM",
+   "lugar": "—",
+   "resumen": "Familia de accesorio de tubería generada para el catálogo.",
+   "revision": "v01",
+   "fecha": "2026-10-02",
+   "miniatura": "miniaturas/silleta-tecnopipe.jpg",
+   "vistas": [
+    {
+     "id": "index",
+     "nombre": "Familia",
+     "url": "silleta-tecnopipe/index.html",
+     "mb": 0.6,
+     "celular": true
+    }
+   ]
+  }
+ ]
+}
